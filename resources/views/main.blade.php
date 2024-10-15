@@ -14,9 +14,31 @@
     <!-- Подключение CSS -->
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
+    <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/png">
     <title>Daniel Mihai - Software developer</title>
 </head>
 <body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">
+            <img src="{{ asset('images/logo.png') }}" alt="">
+            <h1>danielmihai</h1>
+        </div>
 
+        <div class="links">
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Experience</a>
+            <a href="#">About me</a>
+            <a href="#">Price List</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="resume">
+            <a href="https://drive.google.com/file/d/1I5ljSCsa0r0zkjLNn4lRlZSKUhuQ_h5A/view" target="_blank">Resume</a>
+        </div>
+    </header>
 </body>
 </html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+/* Базовые настройки */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+}
+
+button, a {
+    cursor: pointer;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Стили для шапки сайта */
+header {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo img {
+    margin-right: 5px;
+}
+
+header .logo h1 {
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+header .links {
+    margin-top: 6px;
+}
+
+header .links a {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 0.2s ease-in;
+}
+
+header .links a:last-child {
+    margin-right: 0px;
+}
+
+header .links a:hover {
+    color: #919191;
+}
+
+header .resume {
+    margin-top: 6px;
+}
+
+header .resume a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: 0.4s ease-in-out;
+}
+
+header .resume a:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
