@@ -40,5 +40,28 @@
             <a href="https://drive.google.com/file/d/1I5ljSCsa0r0zkjLNn4lRlZSKUhuQ_h5A/view" target="_blank">Resume</a>
         </div>
     </header>
+
+    <!-- Блок Hero -->
+    <div class="hero">
+        <div class="main-text">
+            <h2>Hello I’am <b>Daniel Mihai</b></h2>
+            <h1>Software <b>Developer</b></h1>
+            <h2>Based In <b>Moldova.</b></h2>
+
+            <div class="main-text--sub">
+                <span>Hi! I'm Daniel Mihai, an experienced fullstack developer with over a year in software development. Clients trust me to build reliable, secure solutions, ensuring their business needs are met efficiently. I focus on delivering high-quality, user-friendly applications while staying ahead in technology.</span>
+            </div>
+
+            <div class="main-text--socials">
+                <a href="/"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
+                <a href="/"><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
+                <a href="/"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="{{ asset('images/hero.png') }}">
+        </div>
+    </div>
 </body>
 </html>

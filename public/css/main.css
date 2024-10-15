@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Базовые настройки */
 * {
@@ -82,4 +83,69 @@ header .resume a:hover {
     color: black;
     background-color: white;
     border: 2px solid black;
+}
+
+/* Стили для блока Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.hero .main-text {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.hero .main-text h2 {
+    font-weight: 300;
+    font-size: 38px;
+    padding-bottom: 0px;
+}
+
+.hero .main-text h2 b {
+    font-weight: 500;
+}
+
+.hero .main-text h1 {
+    font-size: 38px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.hero .main-text h1 b {
+    font-weight: 300;
+}
+
+.hero .main-text .main-text--sub {
+    padding-top: 15px;
+}
+
+.hero .main-text .main-text--sub span {
+    color: #71717A;
+    font-size: 13px;
+}
+
+.hero .main-text .main-text--socials {
+    display: flex;
+    margin-top: 25px;
+}
+
+.hero .main-text .main-text--socials a {
+    border-radius: 4px;
+    padding: 10px 10px 5px 10px;
+    border: 2px solid black;
+}
+
+.hero .main-text .main-text--socials a:first-child {
+    background-color: black;
+}
+
+.hero .main-text .main-text--socials a img {
+    width: 32px;
+    height: 32px;
+}
+
+.hero .main-text .main-text--socials a {
+    margin-right: 15px;
 }
