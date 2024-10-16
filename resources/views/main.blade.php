@@ -53,9 +53,9 @@
             </div>
 
             <div class="main-text--socials">
-                <a href="/"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
-                <a href="/"><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
-                <a href="/"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/danielmihaiit/?locale=en_US"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
+                <a href=""><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
+                <a href="https://github.com/messsimo"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
             </div>
         </div>
 
@@ -108,6 +108,55 @@
             <div class="block">
                 <img src="{{ asset('images/figma.png') }}" alt="Figma">
                 <span>Figma</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок с кейсами работ -->
+    <div class="cases">
+        <h2>My <b>Projects</b></h2>
+
+        <div class="cases-container">
+            <div class="block">
+                <img src="{{ asset('images/krud.png') }}" alt="Krud Restaurant">
+                <div class="block--text">
+                    <h3>01</h3>
+                    <h4>Krud Restaurant</h4>
+                    <span>Krud Restaurant is a responsive web application for a restaurant in Iasi, Romania, offering full CRUD functionality to manage products. It adapts to any screen size, from desktop to mobile. Users can view the menu, add items to the cart, and place orders through an intuitive checkout form. The app integrates with OpenStreetMap to display the restaurant's location, ensuring easy access for customers. Designed for smooth user interaction and efficient restaurant management, Krud Restaurant combines functionality with reliability.</span>
+                    <div class="link">
+                        <a href="https://github.com/messsimo/krud_restaurant" target="_blank">
+                            <span>Repository on GitHub ↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block--text">
+                    <h3>02</h3>
+                    <h4>Rondo Lounge Cafe</h4>
+                    <span>Rondo Lounge Cafe is a responsive CRUD web application for a restaurant in Chisinau, Moldova. It offers full CRUD functionality to manage product information, adaptable to any screen size from 1920px to 360px. The home page displays all products and categories, allowing users to easily browse. The shopping cart enables adding, updating, and removing items, providing a smooth ordering experience. Rondo Lounge Cafe ensures efficient management and a user-friendly interface.</span>
+                    <div class="link">
+                        <a href="https://github.com/messsimo/rondo_cafe" target="_blank">
+                            <span>Repository on GitHub ↗</span>
+                        </a>
+                    </div>
+                </div>
+                <img class="reverse-img" src="{{ asset('images/rondo.png') }}" alt="Rondo Lounge Cafe">
+            </div>
+
+            <div class="block">
+                <img src="{{ asset('images/fitness.png') }}" alt="FitnessLove - Fitness Club">
+                <div class="block--text">
+                    <h3>03</h3>
+                    <h4>FitnessLove - Fitness Club</h4>
+                    <span>I LOVE FITNESS is a sports complex in Moscow, Russia. The website provides detailed information about the club and allows users to book subscriptions at affordable prices. It is fully adapted for all screen sizes, from 1920px to 360px. The home page features club details and a booking form for subscriptions. Additionally, an API integration with OpenStreetMap displays the club's location for easy navigation.</span>
+                    <div class="link">
+                        <a href="https://github.com/messsimo/fitness-love" target="_blank">
+                            <span>Repository on GitHub ↗</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

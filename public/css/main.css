@@ -161,7 +161,7 @@ header .resume a:hover {
 .skills .skills-container {
     padding-top: 75px;
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(186px, 1fr)); 
 }
 
 .skills .skills-container .block {
@@ -197,4 +197,74 @@ header .resume a:hover {
 
 .skills .skills-container .block.active span {
     color: white;
+}
+
+/* Блок с кейсами */
+.cases {
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.cases h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+
+.cases .cases-container {
+    padding-top: 75px;
+}
+
+.cases .cases-container .block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.cases .cases-container .block img {
+    width: 50%;
+    height: 300px;
+    border-radius: 18.75px;
+    margin-right: 50px;
+}
+
+.cases .cases-container .block .reverse-img {
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.cases .cases-container .block .block--text {
+    width: 50%;
+}
+
+.cases .cases-container .block .block--text h3 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cases .cases-container .block .block--text h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.cases .cases-container .block .block--text span {
+    color: #71717A;
+    font-size: 12px;
+}
+
+.cases .cases-container .block .block--text .link {
+    display: flex;
+    margin-top: 15px;
+}
+
+.cases .cases-container .block .block--text .link a {
+    text-decoration: none;
+}
+
+.cases .cases-container .block .block--text .link a span {
+    color: #d4d4d8;
 }
