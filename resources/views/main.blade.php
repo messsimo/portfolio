@@ -160,5 +160,37 @@
             </div>
         </div>
     </div>
+
+    <!-- Блок отзывов -->
+    <div class="reviews">
+        <h2>My <b>Testimonial</b></h2>
+
+        <div class="reviews-container">
+            <div class="block">
+                <img src="{{ asset('images/elena.png') }}" alt="">
+                <div class="block--text">
+                    <span>An exceptional website! Seamless subscription booking and flawless adaptation. Highly recommend Daniel as a developer.</span>
+                    <div class="hr"></div>
+                    <p>Elena Voronina</p>
+                </div>
+            </div>
+            <div class="block active">
+                <img src="{{ asset('images/sandu.png') }}" alt="">
+                <div class="block--text">
+                    <span>Daniel delivered a high-quality solution. The product management system is smooth, and customers love the ease of use.</span>
+                    <div class="hr"></div>
+                    <p>Alexandru Rusu</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="{{ asset('images/anton.png') }}" alt="">
+                <div class="block--text">
+                    <span>Outstanding development! The site is user-friendly, and the shopping cart integration is perfect. Daniel is a top-tier developer.</span>
+                    <div class="hr"></div>
+                    <p>Anton Ionescu</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

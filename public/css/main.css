@@ -268,3 +268,84 @@ header .resume a:hover {
 .cases .cases-container .block .block--text .link a span {
     color: #d4d4d8;
 }
+
+/* Стили для блоков с отзывами */
+.reviews {
+    padding: 50px 100px;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.reviews .reviews-container {
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
+}
+
+.reviews .reviews-container .block {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    /* height: 396px; */
+    width: 370px;
+}
+
+.reviews .reviews-container .block.active {
+    background-color: black;
+}
+
+.reviews .reviews-container .block img  {
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    margin: 50px 0 30px 0;
+    border: 1px solid black;
+}
+
+.reviews .reviews-container .block.active img {
+    border: 1px solid white;
+}
+
+.reviews .reviews-container .block .block--text {
+    display: grid;
+    place-items: center;
+    margin: 0 20px;
+}
+
+.reviews .reviews-container .block .block--text span {
+    text-align: center;
+    font-size: 14px;
+    color: #404040;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.reviews .reviews-container .block.active span {
+    color: white;
+}
+
+.reviews .reviews-container .block .block--text .hr {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
+.reviews .reviews-container .block.active .hr {
+    background-color: white;
+}
+
+.reviews .reviews-container .block .block--text p {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.reviews .reviews-container .block.active p {
+    color: white;
+}
