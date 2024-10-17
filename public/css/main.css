@@ -403,3 +403,58 @@ header .resume a:hover {
     font-weight: 300;
     text-align: justify;
 }
+
+/* Стили для блока с информацией обо мне */
+.aboutme {
+    padding: 50px 100px;
+}
+
+.aboutme .aboutme-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme .aboutme-container img {
+    width: 525.5px;
+    height: 572px;
+}
+
+.aboutme .aboutme-container .text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.aboutme .aboutme-container .text h2 {
+    padding-top: 15px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.aboutme .aboutme-container .text span {
+    display: block;
+    margin-bottom: 25px;
+    color: #71717A;
+    font-size: 14px;
+    font-weight: 300;
+    /* text-align: justify; */
+}
+
+.aboutme .aboutme-container .text .resume {
+    margin-top: 50px;
+}
+
+.aboutme .aboutme-container .text .resume a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+}
+
+.aboutme .aboutme-container .text .resume a:hover {
+    background-color: #404040;
+}

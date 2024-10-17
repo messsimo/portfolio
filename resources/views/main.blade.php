@@ -214,5 +214,22 @@
             </div>
         </div>
     </div>
+
+    <!-- Блок с информацией обо мне -->
+    <div class="aboutme">
+        <div class="aboutme-container">
+            <img src="{{ asset('images/me.png') }}" alt="Me">
+
+            <div class="text">
+                <h2>About <b>Me</b></h2>
+                <span>My name is Daniel, and I am an experienced web developer with several years of expertise in commercial projects across various industries, including fintech, e-commerce, and educational platforms. I leverage modern technologies such as Laravel, MySQL, and RESTful APIs to create efficient and reliable solutions for my clients. </span>
+                <span>My communication skills and ability to listen allow me to connect easily with clients, helping me to gain a deeper understanding of their needs and challenges. I take pride in the fact that my clients trust me with their projects and ideas, knowing that I will put in the effort to achieve their goals.</span>
+                <span>If you are looking for a professional who can bring your project to life at a high level and offer innovative solutions, feel free to reach out to me. Let’s discuss how I can help you succeed and elevate your business to new heights!</span>
+                <div class="resume">
+                    <a href="https://drive.google.com/file/d/1I5ljSCsa0r0zkjLNn4lRlZSKUhuQ_h5A/view" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
