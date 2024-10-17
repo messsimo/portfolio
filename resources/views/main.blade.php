@@ -192,5 +192,27 @@
             </div>
         </div>
     </div>
+
+    <!-- Блок с опытом работы -->
+    <div class="exp">
+        <h2>My <b>Experience</b></h2>
+
+        <div class="exp-container">
+            <div class="block">
+                <div class="block--top">
+                    <h3>Middle Web Developer at Oxem Studio</h3>
+                    <p>August 2024 – Present</p>
+                </div>
+                <span>Developed custom web applications and websites for clients in e-commerce, fintech, and education, leading full-cycle project development using Laravel, MySQL, and RESTful APIs. Optimized processes to reduce project delivery times by 15% and collaborated with clients to define technical specifications while ensuring clear communication throughout development. Conducted code reviews to maintain quality and built interactive user interfaces.</span>
+            </div>
+            <div class="block active">
+                <div class="block--top">
+                    <h3>Junior FullStack Developer at ZapTab</h3>
+                    <p>February 2024 – July 2024</p>
+                </div>
+                <span>Developed a web application for fitness club management, optimizing database interactions by 20% and creating a responsive interface with Laravel Blade. Implemented a filtering system for services and trainers, integrated third-party APIs for scheduling, and collaborated with UX/UI designers on user-friendly dashboards.</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

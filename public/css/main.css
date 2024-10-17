@@ -292,8 +292,7 @@ header .resume a:hover {
     display: grid;
     place-items: center;
     margin-right: 50px;
-    margin-bottom: 50px;
-    /* height: 396px; */
+    margin-bottom: 25px;
     width: 370px;
 }
 
@@ -348,4 +347,59 @@ header .resume a:hover {
 
 .reviews .reviews-container .block.active p {
     color: white;
+}
+
+/* Стили для блока с опытом работы */
+.exp {
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.exp h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+
+.exp .exp-container {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.exp .exp-container .block {
+    width: 100%;
+    border: 2px solid #27272A;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.exp .exp-container .block.active {
+    background-color: #27272A;
+}
+
+.exp .exp-container .block .block--top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.exp .exp-container .block .block--top h3,
+.exp .exp-container .block .block--top p {
+    color: white;
+}
+
+.exp .exp-container .block .block--top p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #D4D4D8;
+}
+
+.exp .exp-container .block span {
+    color: #D4D4D8;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
 }
