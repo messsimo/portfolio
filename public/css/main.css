@@ -458,3 +458,108 @@ header .resume a:hover {
 .aboutme .aboutme-container .text .resume a:hover {
     background-color: #404040;
 }
+
+/* Стили для прайс-листа */
+.price-list {
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.price-list h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.price-list .price-list--container {
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    color: white;
+}
+
+.price-list .price-list--container .block {
+    border-radius: 14px;
+    border: 1px solid #404040;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+.price-list .price-list--container .block.active {
+    background-color: #27272A;
+    border: none;
+}
+
+.price-list .price-list--container .block h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+.price-list .price-list--container .block h3 i {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.price-list .price-list--container .block p {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price-list .price-list--container .block .advantages {
+    text-align: left;
+    padding: 0 15px;
+    height: 350px;
+    color: #71717A;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.price-list .price-list--container .block .advantages div  {
+    margin-bottom: 5px;
+}
+
+.price-list .price-list--container .block .advantages div {
+    margin-left: 5px;
+}
+
+.price-list .price-list--container .block.active .advantages {
+    /* color: black; */
+    color: #71717A;
+}
+
+.price-list .price-list--container .block .advantages div svg,
+.price-list .price-list--container .block .advantages div .cls-2  {
+    width: 15px;
+    height: 15px;
+    fill: #71717A;
+}
+
+.price-list .price-list--container .block.active .advantages div .cls-2  {
+    fill: #71717A;
+}
+
+.price-list .price-list--container .block .buy {
+    padding-bottom: 15px;
+}
+
+.price-list .price-list--container .block a {
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+}
+
+.price-list .price-list--container .block a:hover {
+    background-color: #404040;
+    color: white;
+}
