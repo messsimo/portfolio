@@ -632,3 +632,93 @@ header .resume a:hover {
 .faq .faq-container .block .answer span i {
     text-decoration: underline;
 }
+
+/* Стили для блока обратной связи */
+.contact-form {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-form form {
+    width: 30%;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 92%;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #71717A;
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+}
+
+.contact-form form textarea {
+    height: 75px;
+}
+
+.contact-form form .link-socials {
+    display: flex;
+}
+
+.contact-form form .link-socials button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    margin-right: 15px;
+}
+
+.contact-form form .link-socials a {
+    border-radius: 4px;
+    padding: 5px 8px;
+    border: 2px solid black;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-form form .link-socials .active {
+    background-color: black;
+}
+
+.contact-form form .link-socials a img {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+}
+
+.contact-form form .link-socials a {
+    margin-right: 15px;
+}
+
+.contact-form .maint-text {
+    width: 65%;
+}
+
+.contact-form .maint-text h2 {
+    font-size: 36px;
+}
+.contact-form .maint-text span {
+    font-size: 14px;
+    color: #71717A;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.contact-form .maint-text .quotation {
+    padding: 20px 0;
+    width: 50%;
+}
+
+.contact-form .maint-text p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}

@@ -53,9 +53,9 @@
             </div>
 
             <div class="main-text--socials">
-                <a href="https://www.linkedin.com/in/danielmihaiit/?locale=en_US"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
-                <a href=""><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
-                <a href="https://github.com/messsimo"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/danielmihaiit/?locale=en_US" target="_blank"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
+                <a href="" target="_blank"><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
+                <a href="https://github.com/messsimo" target="_blank"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
             </div>
         </div>
 
@@ -461,6 +461,34 @@
                     <span>We ensure a reliable transfer of rights to the site to your customer through several key steps. First, we collect all the necessary documents and transfer the project files (code, databases) through secure channels. We guarantee the transfer of the domain and, if necessary, the transfer of hosting to the customer's account. Upon completion, we sign the acceptance certificate and draw up an agreement on the transfer of rights. We are also ready to discuss the terms of post-warranty service so that you can be confident in the successful operation of the site.</span>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Блок формы обратной связи -->
+    <div class="contact-form">
+        <form action="" method="POST">
+            @csrf
+
+            <input type="text" placeholder="Your name*" name="name" require><br>
+            <input type="email" placeholder="Email*" name="email" require><br>
+            <textarea name="message" placeholder="How can I help?"></textarea><br>
+
+            <div class="link-socials">
+                <button type="submit">Get In Touch</button>
+                <a class="active" href="https://www.linkedin.com/in/danielmihaiit/?locale=en_US" target="_blank"><img src="{{ asset('images/linkedin.png') }}" alt="LinkedIn"></a>
+                <a href="" target="_blank"><img src="{{ asset('images/instagram.png') }}" alt="Instagram"></a>
+                <a href="https://github.com/messsimo" target="_blank"><img src="{{ asset('images/github.png') }}" alt="GitHub"></a>
+            </div>
+        </form>
+
+        <div class="maint-text">
+            <h2>Let’s talk for</h2>
+            <h2>Something special</h2>
+            <div class="quotation">
+                <span>I believe that a successful project is a result of not only quality code, but also a deep understanding of the client's needs. My goal is to create solutions that not only meet requirements, but also exceed expectations.</span>
+            </div>
+            <p>danielmihai.it@mail.ru</p>
+            <p>+373 60029911</p>
         </div>
     </div>
 
