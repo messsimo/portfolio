@@ -563,3 +563,72 @@ header .resume a:hover {
     background-color: #404040;
     color: white;
 }
+
+/* Стили для блока FAQ */
+.faq {
+    padding: 50px 100px;
+}
+
+.faq h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.faq .faq-container {
+    display: grid;
+    place-items: center;
+    padding-top: 75px;
+}
+
+.faq .faq-container .block {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.faq .faq-container .block .question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .faq-container .block .question svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.faq .faq-container .block .question p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.faq .faq-container .block .answer {
+    color: #71717A;
+
+    max-height: 0;
+    overflow: hidden;
+    transition:  max-height 0.3s ease;
+}
+
+.faq .faq-container .block.active {
+    max-height: auto;
+}
+
+.faq .faq-container .block.active .answer {
+    margin-top: 10px;
+}
+
+.faq .faq-container .block .answer span {
+    font-size: 14px;
+}
+
+.faq .faq-container .block .answer span a {
+    color: #71717A;
+}
+
+.faq .faq-container .block .answer span i {
+    text-decoration: underline;
+}

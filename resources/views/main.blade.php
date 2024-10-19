@@ -233,10 +233,11 @@
     </div>
 
     <!-- Блок с Прайс-листом -->
-    <div class="price-list">
+    <div class="price-list" id="price-list">
         <h2>Price <b>List</b></h2>
 
         <div class="price-list--container">
+            <!-- Пакет#1 -->
             <div class="block">
                 <h3>From 200$</h3>
                 <p>Basic</p>
@@ -258,7 +259,7 @@
                     <a href="">Choose a service</a>
                 </div>
             </div>
-
+            <!-- Пакет#2 -->
             <div class="block">
                 <h3>From 300$</h3>
                 <p>Standart</p>
@@ -284,7 +285,7 @@
                     <a href="">Choose a service</a>
                 </div>
             </div>
-
+            <!-- Пакет#3 -->
             <div class="block">
                 <h3>From 600$</h3>
                 <p>Premium</p>
@@ -314,7 +315,7 @@
                     <a href="">Choose a service</a>
                 </div>
             </div>
-
+            <!-- Пакет#4 -->
             <div class="block active">
                 <h3>From 50$ <i>/month</i></h3>
                 <p>Technical support</p>
@@ -354,5 +355,116 @@
             </div>
         </div>
     </div>
+
+    <!-- Блок FAQ -->
+    <div class="faq">
+        <h2>FAQ</h2>
+
+        <div class="faq-container">
+            <!-- Вопрос#1 -->
+            <div class="block">
+                <div class="question">
+                    <p>What is the cost of website development?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>You can buy a package of any type, the price depends on the services and the degree of complexity in development. <a href="#price-list"><i>Click here</i></a> for more information.</span>
+                </div>
+            </div>
+            <!-- Вопрос#2 -->
+            <div class="block">
+                <div class="question">
+                    <p>How long will the development process take?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>Development time ranges from 4 days and depends on the complexity of the project and type of development. Lead time is discussed at the approval stage.</span>
+                </div>
+            </div>
+            <!-- Вопрос#3 -->
+            <div class="block">
+                <div class="question">
+                    <p>What experience do you have in website development?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>I am a Middle Software Developer with experience in web development and successfully completed projects. My approach is based on a deep understanding of client needs and creating functional, attractive websites. I guarantee quality support after the completion of the project and strive for long-term cooperation.</span>
+                </div>
+            </div>
+            <!-- Вопрос#4 -->
+            <div class="block">
+                <div class="question">
+                    <p>What technologies do you use for development?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>We work with modern technologies to create high-quality web solutions: HTML and CSS for aesthetic design, JavaScript for interactivity, PHP and Laravel for a powerful backend, and SQL and MySQL for reliable data management. Docker and Git help us manage projects efficiently and ensure stability.</span>
+                </div>
+            </div>
+            <!-- Вопрос#5 -->
+            <div class="block">
+                <div class="question">
+                    <p>How does the process of coordinating design and functionality take place?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>We understand the importance of matching design and functionality, which is why we have a two-step process to accommodate your needs. First, we meet or call to carefully listen to your preferences. We then present your vision concept. If you have ideas for improvement, we are always open to your edits and are ready to update the concept so that it fully meets your expectations.</span>
+                </div>
+            </div>
+            <!-- Вопрос#6 -->
+            <div class="block">
+                <div class="question">
+                    <p>What is the process for testing a site before launch?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>Testing is a key stage before launching a project. We carefully check each functionality at all stages of development using CI/CD processes. This allows you to minimize risks and ensure that your project runs smoothly and meets high standards.</span>
+                </div>
+            </div>
+            <!-- Вопрос#7 -->
+            <div class="block">
+                <div class="question">
+                    <p>Will the site be adapted for mobile devices?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>Yes, the site will be adaptive for all devices.</span>
+                </div>
+            </div>
+            <!-- Вопрос#8 -->
+            <div class="block">
+                <div class="question">
+                    <p>Do you provide services for maintaining and updating the site after it is launched?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>Yes, you can purchase monthly support separately, or when you purchase the Standard and Premium packages, you get from 1 month and 6 months of free support.</span>
+                </div>
+            </div>
+            <!-- Вопрос#9 -->
+            <div class="block">
+                <div class="question">
+                    <p>What is the policy for making changes after development has begun?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>If the changes are not critical and do not affect all further or previous development, then the edit is free, otherwise you will need to pay extra for such edits depending on the complexity.</span>
+                </div>
+            </div>
+            <!-- Вопрос#10 -->
+            <div class="block">
+                <div class="question">
+                    <p>What is the process for transferring rights to the site once it is completed?</p>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M895 3506 c-67 -29 -105 -105 -90 -183 6 -34 100 -131 843 -875 744 -743 841 -837 875 -843 94 -18 39 -66 949 843 909 909 861 855 843 949 -9 49 -69 109 -118 118 -94 18 -46 59 -875 -768 l-762 -762 -758 757 c-424 424 -769 762 -785 768 -38 14 -85 12 -122 -4z"/></g></svg>
+                </div>
+                <div class="answer">
+                    <span>We ensure a reliable transfer of rights to the site to your customer through several key steps. First, we collect all the necessary documents and transfer the project files (code, databases) through secure channels. We guarantee the transfer of the domain and, if necessary, the transfer of hosting to the customer's account. Upon completion, we sign the acceptance certificate and draw up an agreement on the transfer of rights. We are also ready to discuss the terms of post-warranty service so that you can be confident in the successful operation of the site.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение JS -->
+    <script src="{{ asset('js/dropdown.js') }}"></script>
 </body>
 </html>
