@@ -492,6 +492,13 @@
         </div>
     </div>
 
+    <!-- Футер -->
+    <footer>
+        <h2>danielmihai</h2>
+        <img src="{{ asset('images/logo_white.png') }}">
+        <p>Powered by Daniel Mihai</p>
+    </footer>
+
     <!-- Подключение JS -->
     <script src="{{ asset('js/dropdown.js') }}"></script>
 </body>

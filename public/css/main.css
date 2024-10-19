@@ -635,7 +635,7 @@ header .resume a:hover {
 
 /* Стили для блока обратной связи */
 .contact-form {
-    padding: 50px 100px;
+    padding: 50px 100px 100px 100px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -721,4 +721,25 @@ header .resume a:hover {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: black;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 30px;
+}
+
+footer h2,
+footer p {
+    line-height: 30px;
+}
+
+footer p {
+    color: #71717A;
+    font-size: 12px;
+    font-weight: 300;
 }
