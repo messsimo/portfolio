@@ -20,20 +20,22 @@
 <body>
     <!-- Шапка сайта -->
     <header>
+        <a class="link--main-page" href="{{ route('main') }}">
         <div class="logo">
             <img src="{{ asset('images/logo.png') }}" alt="">
             <h1>danielmihai</h1>
         </div>
+        </a>
 
         <div class="links">
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Testimonial</a>
-            <a href="#">Experience</a>
-            <a href="#">About me</a>
-            <a href="#">Price List</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contact</a>
+            <a href="#skills">Skills</a>
+            <a href="#cases">Projects</a>
+            <a href="#reviews">Testimonial</a>
+            <a href="#exp">Experience</a>
+            <a href="#aboutme">About me</a>
+            <a href="#price-list">Price List</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
         </div>
 
         <div class="resume">
@@ -65,7 +67,7 @@
     </div>
 
     <!-- Блок Скиллов -->
-    <div class="skills">
+    <div class="skills" id="skills">
         <h2>My <b>Skills</b></h2>
 
         <div class="skills-container">
@@ -113,7 +115,7 @@
     </div>
 
     <!-- Блок с кейсами работ -->
-    <div class="cases">
+    <div class="cases" id="cases">
         <h2>My <b>Projects</b></h2>
 
         <div class="cases-container">
@@ -162,7 +164,7 @@
     </div>
 
     <!-- Блок отзывов -->
-    <div class="reviews">
+    <div class="reviews" id="reviews">
         <h2>My <b>Testimonial</b></h2>
 
         <div class="reviews-container">
@@ -194,7 +196,7 @@
     </div>
 
     <!-- Блок с опытом работы -->
-    <div class="exp">
+    <div class="exp" id="exp">
         <h2>My <b>Experience</b></h2>
 
         <div class="exp-container">
@@ -216,7 +218,7 @@
     </div>
 
     <!-- Блок с информацией обо мне -->
-    <div class="aboutme">
+    <div class="aboutme" id="aboutme">
         <div class="aboutme-container">
             <img src="{{ asset('images/me.png') }}" alt="Me">
 
@@ -357,7 +359,7 @@
     </div>
 
     <!-- Блок FAQ -->
-    <div class="faq">
+    <div class="faq" id="faq">
         <h2>FAQ</h2>
 
         <div class="faq-container">
@@ -465,13 +467,30 @@
     </div>
 
     <!-- Блок формы обратной связи -->
-    <div class="contact-form">
-        <form action="" method="POST">
+    <div class="contact-form" id="contact">
+        <form action="{{ route('contactForm') }}" method="POST">
             @csrf
 
             <input type="text" placeholder="Your name*" name="name" require><br>
             <input type="email" placeholder="Email*" name="email" require><br>
             <textarea name="message" placeholder="How can I help?"></textarea><br>
+
+            <!-- Вывод ошибок -->
+            @if($errors->any())
+            <div class="alert error">
+                <ul>
+                    @foreach($errors->all() as $el)
+                    <li>{{ $el }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif
+            <!-- Вывод успешной сессии -->
+            @if (session("success"))
+            <div class="alert success">
+                <span>{{ session('success') }}</span>
+            </div>
+            @endif
 
             <div class="link-socials">
                 <button type="submit">Get In Touch</button>

@@ -29,6 +29,11 @@ header {
     justify-content: space-between;
 }
 
+header .link--main-page {
+    text-decoration: none;
+    color: black;
+}
+
 header .logo {
     display: flex;
 }
@@ -696,6 +701,28 @@ header .resume a:hover {
 
 .contact-form form .link-socials a {
     margin-right: 15px;
+}
+
+.contact-form form .alert {
+    width: 92%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.contact-form form .error,
+.contact-form form .success {
+    background-color: #e53e3e;
+    color: white;
+    font-size: 12px;
+}
+
+.contact-form form .success {
+    background-color: #38a169;
+}
+
+.contact-form form .error ul {
+    list-style: none;
 }
 
 .contact-form .maint-text {
