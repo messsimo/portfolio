@@ -13,6 +13,7 @@
     <meta property="og:type" content="website">
     <!-- Подключение CSS -->
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/adaptation.css') }}">
 
     <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/png">
     <title>Daniel Mihai - Software developer</title>
