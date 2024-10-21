@@ -166,3 +166,98 @@
         padding: 50px 25px;
     }
 }
+
+/* Адаптация для блока Projects */
+@media (max-width: 1920px) {
+    .cases .cases-container .block img {
+        height: 370px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .cases .cases-container .block img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .cases {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .cases {
+        padding: 50px 25px;
+    }
+}
+
+@media (max-width: 980px) {
+    .cases .cases-container .block {
+        display: grid;
+        justify-content: none;
+        width: 100%;
+    }
+
+    .cases .cases-container {
+        display: grid;
+        place-items: center;
+    }
+
+    .cases {
+        padding: 50px 50px;
+    }
+
+    .cases .cases-container .block img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 25px;
+    }
+
+    .cases .cases-container .block .reverse-img {
+        margin-left: 0px;
+        order: -1;
+    }
+
+    .cases .cases-container .block .block--text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .cases .cases-container .block img {
+        height: 300px;
+    }
+
+    .cases .cases-container .block .block--text h3 {
+        font-size: 28px;
+    }
+
+    .cases .cases-container .block .block--text h4 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 570px) {
+    .cases .cases-container .block img {
+        height: 250px;
+    }
+
+    .cases .cases-container .block .block--text h3 {
+        font-size: 26px;
+    }
+
+    .cases .cases-container .block .block--text h4 {
+        font-size: 28px;
+    }
+
+    .cases .cases-container .block .block--text span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .cases .cases-container .block img {
+        height: 200px;
+    }
+}
