@@ -41,7 +41,30 @@
         <div class="resume">
             <a href="https://drive.google.com/file/d/1I5ljSCsa0r0zkjLNn4lRlZSKUhuQ_h5A/view" target="_blank">Resume</a>
         </div>
+
+        <div class="burger" id="burger-icon"> 
+            <img src="{{ asset('images/burger.png') }}" alt="Menu">
+        </div>
     </header>
+
+    <div class="burger-block" id="burger-dropdown">
+        <svg id="close-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)" fill="white" stroke="none"><path d="M4 309 c-3 -6 24 -41 62 -80 l68 -69 -69 -70 c-55 -55 -67 -72 -57 -82 10 -10 27 2 82 57 l70 69 70 -69 c55 -55 72 -67 82 -57 10 10 -2 27 -57 82 l-69 70 69 70 c55 55 67 72 57 82 -10 10 -27 -2 -82 -57 l-70 -69 -68 67 c-71 70 -77 74 -88 56z"/></g></svg>
+        
+        <div class="links">
+            <a href="#skills">Skills</a>
+            <a href="#cases">Projects</a>
+            <a href="#reviews">Testimonial</a>
+            <a href="#exp">Experience</a>
+            <a href="#aboutme">About me</a>
+            <a href="#price-list">Price List</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="resume">
+            <a href="https://drive.google.com/file/d/1I5ljSCsa0r0zkjLNn4lRlZSKUhuQ_h5A/view" target="_blank">Resume</a>
+        </div>
+    </div>
 
     <!-- Блок Hero -->
     <div class="hero">
@@ -520,5 +543,6 @@
 
     <!-- Подключение JS -->
     <script src="{{ asset('js/dropdown.js') }}"></script>
+    <script src="{{ asset('js/burger.js') }}"></script>
 </body>
 </html>
