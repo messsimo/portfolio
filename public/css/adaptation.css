@@ -147,3 +147,22 @@
         font-size: 26px;
     }
 }
+
+/* Адаптация для блока Skills */
+@media (max-width: 980px) {
+    .skills {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 757px) {
+    .skills .skills-container {
+        place-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills {
+        padding: 50px 25px;
+    }
+}
