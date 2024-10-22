@@ -350,3 +350,22 @@
         padding: 50px 25px;
     }
 }
+
+/* Адаптация для блока с прайс-листом */
+@media (max-width: 1300px) {
+    .price-list {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .price-list .price-list--container .block .advantages {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 1771px) {
+    .price-list .price-list--container .block a {
+        padding: 10px 35px;
+    }
+}
