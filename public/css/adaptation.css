@@ -327,10 +327,16 @@
     
     .aboutme .aboutme-container img {
         margin-bottom: 50px;
+
     }
 
     .aboutme .aboutme-container .text h2 {
         text-align: center;
+    }
+
+    .aboutme .aboutme-container .text {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -368,4 +374,9 @@
     .price-list .price-list--container .block a {
         padding: 10px 35px;
     }
+}
+
+/* Адаптация для блока FAQ */
+.faq {
+    padding: 50px 50px;
 }
