@@ -22,6 +22,10 @@ img {
     max-height: 100%;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 /* Стили для шапки сайта */
 header {
     padding: 50px 100px;

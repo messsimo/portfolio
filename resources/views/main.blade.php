@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/adaptation.css') }}">
 
+    <!-- Библиотека Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/png">
     <title>Daniel Mihai - Software developer</title>
 </head>
@@ -69,7 +72,7 @@
 
     <!-- Блок Hero -->
     <div class="hero">
-        <div class="main-text">
+        <div class="main-text slide-in-left">
             <h2>Hello I’am <b>Daniel Mihai</b></h2>
             <h1>Software <b>Developer</b></h1>
             <h2>Based In <b>Moldova.</b></h2>
@@ -85,7 +88,7 @@
             </div>
         </div>
 
-        <div class="hero-img">
+        <div class="hero-img slide-in-right">
             <img src="{{ asset('images/hero.png') }}">
         </div>
     </div>
@@ -143,7 +146,7 @@
         <h2>My <b>Projects</b></h2>
 
         <div class="cases-container">
-            <div class="block">
+            <div class="block slide-in-left">
                 <img src="{{ asset('images/krud.png') }}" alt="Krud Restaurant">
                 <div class="block--text">
                     <h3>01</h3>
@@ -157,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="block">
+            <div class="block slide-in-right">
                 <div class="block--text">
                     <h3>02</h3>
                     <h4>Rondo Lounge Cafe</h4>
@@ -171,7 +174,7 @@
                 <img class="reverse-img" src="{{ asset('images/rondo.png') }}" alt="Rondo Lounge Cafe">
             </div>
 
-            <div class="block">
+            <div class="block slide-in-left">
                 <img src="{{ asset('images/fitness.png') }}" alt="FitnessLove - Fitness Club">
                 <div class="block--text">
                     <h3>03</h3>
@@ -244,9 +247,9 @@
     <!-- Блок с информацией обо мне -->
     <div class="aboutme" id="aboutme">
         <div class="aboutme-container">
-            <img src="{{ asset('images/me.png') }}" alt="Me">
+            <img class="slide-in-left" src="{{ asset('images/me.png') }}" alt="Me">
 
-            <div class="text">
+            <div class="text slide-in-right">
                 <h2>About <b>Me</b></h2>
                 <span>My name is Daniel, and I am an experienced web developer with several years of expertise in commercial projects across various industries, including fintech, e-commerce, and educational platforms. I leverage modern technologies such as Laravel, MySQL, and RESTful APIs to create efficient and reliable solutions for my clients. </span>
                 <span>My communication skills and ability to listen allow me to connect easily with clients, helping me to gain a deeper understanding of their needs and challenges. I take pride in the fact that my clients trust me with their projects and ideas, knowing that I will put in the effort to achieve their goals.</span>
@@ -545,5 +548,41 @@
     <!-- Подключение JS -->
     <script src="{{ asset('js/dropdown.js') }}"></script>
     <script src="{{ asset('js/burger.js') }}"></script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const elementsLeft = document.querySelectorAll('.slide-in-left');
+    const elementsRight = document.querySelectorAll('.slide-in-right');
+
+    function animateOnScroll() {
+        elementsLeft.forEach(el => {
+            if (isInViewport(el)) {
+                el.classList.add('animate__animated', 'animate__slideInLeft');
+                el.classList.remove('hidden');
+            }
+        });
+
+        elementsRight.forEach(el => {
+            if (isInViewport(el)) {
+                el.classList.add('animate__animated', 'animate__slideInRight');
+                el.classList.remove('hidden');
+            }
+        });
+    }
+
+    function isInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    window.addEventListener('scroll', animateOnScroll);
+    animateOnScroll(); // Для анимации при загрузке
+    });
+    </script>
 </body>
 </html>
