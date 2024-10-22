@@ -371,6 +371,7 @@ header .burger img:hover {
 .reviews .reviews-container {
     padding-top: 75px;
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
 }
 

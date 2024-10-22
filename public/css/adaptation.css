@@ -95,13 +95,7 @@
     }
 
     .hero .hero-img {
-        width: 100%;
-        order: -1;
-    }
-
-    .hero .hero-img img {
-        width: 80%;
-        margin-bottom: 50px;
+        display: none;
     }
 }
 
@@ -259,5 +253,32 @@
 @media (max-width: 490px) {
     .cases .cases-container .block img {
         height: 200px;
+    }
+}
+
+/* Адаптация дляб блока отызвов */
+@media (max-width: 1309px) {
+    .reviews {
+        padding: 50px 50px;
+    }
+
+    .reviews .reviews-container .block {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .reviews .reviews-container .block {
+        width: 320px;
+    }
+
+    .reviews .reviews-container {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}
+
+@media (max-width: 380px) {
+    .reviews {
+        padding: 50px 15px;
     }
 }
