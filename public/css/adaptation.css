@@ -282,3 +282,21 @@
         padding: 50px 15px;
     }
 }
+
+/* Адаптация для блока с опытом */
+@media (max-width: 1300px) {
+    .exp {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 730px) {
+    .exp .exp-container .block .block--top {
+        display: block;
+        justify-content: none;
+    }
+
+    .exp .exp-container .block .block--top h3, .exp .exp-container .block .block--top p {
+        margin-bottom: 5px;
+    }
+}
