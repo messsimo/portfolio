@@ -377,6 +377,50 @@
 }
 
 /* Адаптация для блока FAQ */
-.faq {
-    padding: 50px 50px;
+@media (max-width: 1300px) {
+    .faq {
+        padding: 50px 50px;
+    }
+}
+
+/* Адаптация для блока обратной связи */
+@media (max-width: 1300px) {
+    .contact-form {
+        padding: 50px 50px 100px 50px;
+    }
+}
+
+@media (max-width: 1122px) {
+    .contact-form form {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 980px) {
+    .contact-form {
+        display: grid;
+        place-items: center;
+    }
+
+    .contact-form form {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .contact-form .maint-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 50px 25px 100px 25px;
+    }
+}
+
+@media (max-width: 420px) {
+    .contact-form {
+        padding: 50px 5px 100px 5px;
+    }
 }
