@@ -424,3 +424,22 @@
         padding: 50px 5px 100px 5px;
     }
 }
+
+/* Адаптация для футера */
+@media (max-width: 1300px) {
+    footer {
+        padding: 25px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 25px 25px;
+    }
+}
+
+@media (max-width: 420px) {
+    footer {
+        padding: 25px 15px;
+    } 
+}
